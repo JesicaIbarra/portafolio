@@ -1,0 +1,17 @@
+.footer{
+    width: 100%;
+    height: 120px;
+
+    .footer__rodape{
+        height: 120px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        p{
+            text-align: center;
+            
+        }
+    }
+    
+}

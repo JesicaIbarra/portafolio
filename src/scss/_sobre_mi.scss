@@ -1,0 +1,17 @@
+.about{
+    background-color: #EAF2FD;
+
+    .about__container{
+        padding: 3rem 6rem;
+
+        .about__title{
+            font-size: 32px;
+            margin-bottom: 2rem;
+        }
+
+        .about__paragraph{
+            width: 70%;
+            padding-bottom: 2rem;
+        }
+    }
+}

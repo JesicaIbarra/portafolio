@@ -1,0 +1,42 @@
+.title{
+    width: 100%;
+    background-color: #F5F5F5;
+
+    .title__div{
+        display: flex;
+        flex-direction: row-reverse;
+        justify-content: space-between;
+        padding: 2rem 6rem;
+
+        .title__container{
+            width: 70%;
+            padding: 20px 0px;
+
+            h2{
+                font-size: 52px;
+                padding: 30px 0;
+            }
+
+            h3{
+                font-size: 22px;
+            }
+
+            ul{
+                display: flex;
+                list-style: none;
+                margin-top: 2rem;
+                
+                li{
+                    padding: 20px;
+                    a{
+                        text-decoration: none;
+
+                    }
+                }
+            }
+        }
+    }
+
+    
+    
+}

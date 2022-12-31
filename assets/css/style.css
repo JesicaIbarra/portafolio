@@ -1,0 +1,258 @@
+* {
+  margin: 0;
+  padding: 0;
+  color: #464646;
+  font-family: "Raleway";
+}
+
+.tudo .menu {
+  display: flex;
+  height: 100px;
+  align-items: center;
+  justify-content: space-between;
+  padding: 1rem 6rem;
+  background-color: #F5F5F5;
+}
+.tudo .menu .menu__header {
+  display: flex;
+  width: 40%;
+}
+.tudo .menu .menu__header h3 {
+  padding-left: 15px;
+}
+.tudo .menu nav {
+  width: 60%;
+}
+.tudo .menu nav ul {
+  display: flex;
+  justify-content: end;
+}
+.tudo .menu nav ul li {
+  padding: 10px;
+  list-style: none;
+}
+.tudo .menu nav ul li a {
+  text-decoration: none;
+}
+.tudo .menu nav ul li .destaque {
+  font-weight: bold;
+}
+
+.title {
+  width: 100%;
+  background-color: #F5F5F5;
+}
+.title .title__div {
+  display: flex;
+  flex-direction: row-reverse;
+  justify-content: space-between;
+  padding: 2rem 6rem;
+}
+.title .title__div .title__container {
+  width: 70%;
+  padding: 20px 0px;
+}
+.title .title__div .title__container h2 {
+  font-size: 52px;
+  padding: 30px 0;
+}
+.title .title__div .title__container h3 {
+  font-size: 22px;
+}
+.title .title__div .title__container ul {
+  display: flex;
+  list-style: none;
+  margin-top: 2rem;
+}
+.title .title__div .title__container ul li {
+  padding: 20px;
+}
+.title .title__div .title__container ul li a {
+  text-decoration: none;
+}
+
+.about {
+  background-color: #EAF2FD;
+}
+.about .about__container {
+  padding: 3rem 6rem;
+}
+.about .about__container .about__title {
+  font-size: 32px;
+  margin-bottom: 2rem;
+}
+.about .about__container .about__paragraph {
+  width: 70%;
+  padding-bottom: 2rem;
+}
+
+.skills, .hobbies {
+  background-color: #F5F5F5;
+}
+.skills .skills__title, .skills .hobbies__title, .hobbies .skills__title, .hobbies .hobbies__title {
+  font-size: 32px;
+  font-weight: bold;
+  text-align: center;
+  padding-top: 3rem;
+}
+.skills .skills__line, .skills .hobbies__line, .hobbies .skills__line, .hobbies .hobbies__line {
+  padding: 3rem 6rem;
+  display: flex;
+  justify-content: space-evenly;
+}
+.skills .skills__line .skills__box, .skills .skills__line .hobbies__box, .skills .hobbies__line .skills__box, .skills .hobbies__line .hobbies__box, .hobbies .skills__line .skills__box, .hobbies .skills__line .hobbies__box, .hobbies .hobbies__line .skills__box, .hobbies .hobbies__line .hobbies__box {
+  width: 175px;
+  height: 175px;
+  background-color: #ffffff;
+}
+.skills .skills__line .skills__box ul, .skills .skills__line .hobbies__box ul, .skills .hobbies__line .skills__box ul, .skills .hobbies__line .hobbies__box ul, .hobbies .skills__line .skills__box ul, .hobbies .skills__line .hobbies__box ul, .hobbies .hobbies__line .skills__box ul, .hobbies .hobbies__line .hobbies__box ul {
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  justify-content: end;
+}
+.skills .skills__line .skills__box ul .skills__img, .skills .skills__line .skills__box ul .hobbies__img, .skills .skills__line .hobbies__box ul .skills__img, .skills .skills__line .hobbies__box ul .hobbies__img, .skills .hobbies__line .skills__box ul .skills__img, .skills .hobbies__line .skills__box ul .hobbies__img, .skills .hobbies__line .hobbies__box ul .skills__img, .skills .hobbies__line .hobbies__box ul .hobbies__img, .hobbies .skills__line .skills__box ul .skills__img, .hobbies .skills__line .skills__box ul .hobbies__img, .hobbies .skills__line .hobbies__box ul .skills__img, .hobbies .skills__line .hobbies__box ul .hobbies__img, .hobbies .hobbies__line .skills__box ul .skills__img, .hobbies .hobbies__line .skills__box ul .hobbies__img, .hobbies .hobbies__line .hobbies__box ul .skills__img, .hobbies .hobbies__line .hobbies__box ul .hobbies__img {
+  padding-left: 1rem;
+}
+.skills .skills__line .skills__box ul .skills__name, .skills .skills__line .skills__box ul .hobbies__name, .skills .skills__line .hobbies__box ul .skills__name, .skills .skills__line .hobbies__box ul .hobbies__name, .skills .hobbies__line .skills__box ul .skills__name, .skills .hobbies__line .skills__box ul .hobbies__name, .skills .hobbies__line .hobbies__box ul .skills__name, .skills .hobbies__line .hobbies__box ul .hobbies__name, .hobbies .skills__line .skills__box ul .skills__name, .hobbies .skills__line .skills__box ul .hobbies__name, .hobbies .skills__line .hobbies__box ul .skills__name, .hobbies .skills__line .hobbies__box ul .hobbies__name, .hobbies .hobbies__line .skills__box ul .skills__name, .hobbies .hobbies__line .skills__box ul .hobbies__name, .hobbies .hobbies__line .hobbies__box ul .skills__name, .hobbies .hobbies__line .hobbies__box ul .hobbies__name {
+  padding: 1rem;
+}
+
+.academic {
+  background-color: #EAF2FD;
+}
+.academic .academic__title {
+  font-size: 32px;
+  font-weight: bold;
+  text-align: center;
+  padding-top: 3rem;
+}
+.academic .academic__courses {
+  padding: 3rem 6rem;
+  display: flex;
+  justify-content: space-evenly;
+}
+.academic .academic__courses .academic__courses__list .academic__courses__item__img {
+  width: 340px;
+  height: 250px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #ffffff;
+  list-style: none;
+}
+.academic .academic__courses .academic__courses__list .academic__courses__item__img img {
+  padding: 5px;
+}
+.academic .academic__courses .academic__courses__list .academic__courses__item__title {
+  list-style: none;
+}
+.academic .academic__courses .academic__courses__list .academic__courses__item__subtitle {
+  list-style: none;
+}
+
+.experience {
+  background-color: #F5F5F5;
+}
+.experience .experience__section__title {
+  font-size: 32px;
+  font-weight: bold;
+  text-align: center;
+  padding-top: 3rem;
+}
+.experience .experiencie__box {
+  padding: 3rem 6rem;
+  display: flex;
+  align-items: center;
+}
+.experience .experiencie__box .experience__img {
+  padding-right: 3rem;
+}
+.experience .experiencie__box .experience__info {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+}
+.experience .experiencie__box .experience__info .experience__title, .experience .experiencie__box .experience__info .experience__text {
+  margin-bottom: 10px;
+}
+.experience .experiencie__box .experience__info .experience__repo {
+  padding: 20px 20px 20px 0px;
+}
+.experience .experiencie__box .experience__info .experience__repo button {
+  padding: 20px 30px;
+  color: #2A7AE4;
+  border: 1px solid #2A7AE4;
+}
+.experience .experiencie__box .experience__info .experience__demo button {
+  padding: 20px 30px;
+  background-color: #2A7AE4;
+  color: #F5F5F5;
+  border: 1px solid #2A7AE4;
+}
+.experience .box {
+  flex-direction: row-reverse;
+}
+
+.formcontato {
+  background-color: #EAF2FD;
+}
+.formcontato .formcontato__contacto {
+  padding: 3rem 6rem;
+  display: flex;
+  height: 100%;
+}
+.formcontato .formcontato__contacto .formcontato--esquerda {
+  padding-right: 2rem;
+}
+.formcontato .formcontato__contacto .formcontato__text {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  height: 600px;
+}
+.formcontato .formcontato__contacto .formcontato__form {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.formcontato .formcontato__contacto .formcontato__form .formcontato__input {
+  margin-bottom: 30px;
+  padding: 15px 5px;
+  border: none;
+  outline: none;
+  border-radius: 4px;
+}
+.formcontato .formcontato__contacto .formcontato__form .formcontato__input:hover::placeholder {
+  color: #2A7AE4;
+}
+.formcontato .formcontato__contacto .formcontato__form .formcontato__input:hover {
+  border-bottom: 4px solid #2A7AE4;
+}
+.formcontato .formcontato__contacto .formcontato__form .formcontato__textarea {
+  margin-bottom: 30px;
+  padding-bottom: 50px;
+}
+.formcontato .formcontato__contacto .formcontato__form button {
+  width: 200px;
+  padding: 20px;
+  background-color: #2A7AE4;
+  color: #F5F5F5;
+  border: 1px solid #2A7AE4;
+}
+
+.footer {
+  width: 100%;
+  height: 120px;
+}
+.footer .footer__rodape {
+  height: 120px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.footer .footer__rodape p {
+  text-align: center;
+}

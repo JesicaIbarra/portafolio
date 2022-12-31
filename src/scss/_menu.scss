@@ -1,0 +1,45 @@
+.tudo{
+    .menu{
+        display:flex;
+        height: 100px;
+        align-items: center;
+        justify-content: space-between;
+        padding: 1rem 6rem;
+        background-color: #F5F5F5;
+                    
+        .menu__header{
+            display: flex;
+            width: 40%;
+    
+            h3{
+                padding-left: 15px;
+            }    
+                
+    
+        }
+
+        nav{
+            width: 60%;
+
+            ul{
+                display: flex;
+                justify-content: end;
+                               
+                li{
+                    padding:10px;
+                    list-style: none;
+                    
+                    a{
+                        text-decoration: none;
+                    }
+
+                    .destaque{
+                        font-weight: bold;
+                    }
+                }
+            }
+            
+        }
+            
+    }   
+}

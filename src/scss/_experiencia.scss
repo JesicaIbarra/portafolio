@@ -1,0 +1,58 @@
+.experience{
+    background-color: #F5F5F5;
+
+    .experience__section__title{
+        font-size: 32px;
+        font-weight: bold;
+        text-align: center;
+        padding-top: 3rem;
+    }
+
+    .experiencie__box{
+        padding: 3rem 6rem;
+        display: flex;
+        align-items: center;
+
+       
+        .experience__img{
+            padding-right: 3rem;
+        }
+
+        .experience__info{
+            display: flex;
+            flex-direction: column;
+            width: 100%;
+            
+            .experience__title, .experience__text{
+                margin-bottom: 10px;
+            }
+
+            .experience__repo{
+                padding: 20px 20px 20px 0px;
+
+                button{
+                    padding: 20px 30px;
+                    color: #2A7AE4;
+                    border: 1px solid #2A7AE4;
+                }
+            }
+
+            .experience__demo{
+
+                button{
+                    padding: 20px 30px;
+                    background-color: #2A7AE4;
+                    color: #F5F5F5;
+                    border: 1px solid #2A7AE4;
+                }
+            }
+
+
+        }
+
+    }
+
+    .box{
+        flex-direction: row-reverse;
+    }
+}
