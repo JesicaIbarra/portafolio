@@ -1,0 +1,24 @@
+@media (max-width:768px) {
+    .tudo{
+        .menu{
+                                        
+            nav{
+
+                ul{
+ 
+                    li{
+                        display: none;
+                        
+                    }
+
+                    li:last-child{
+                        display: flex;
+                    }
+                }
+                
+            }
+                
+        }   
+    }
+    
+}

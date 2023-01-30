@@ -1,0 +1,47 @@
+@media (max-width: 768px) {
+    .title{
+    
+        .title__div{
+            display: flex;
+            flex-direction: row-reverse;
+            align-items: center;
+            justify-content: space-between;
+            padding: 0rem 3rem;
+           
+            .title__container{
+
+                h2{
+                    font-size: 22px;
+                    padding: 10px 0;
+                }
+    
+                h3{
+                    font-size: 16px;
+                    font-weight: 400;
+                }
+
+                ul{
+                    display: flex;
+                    list-style: none;
+                    margin-top: 0.5rem;
+
+                    li{
+                        
+                        a{
+                            text-decoration: none;
+                            font-weight: 700;
+    
+                        }
+                    }
+    
+                }
+
+            }
+            .title__profile{
+                width: 150px;
+                height: 150px;
+            }
+        }
+        
+    }
+}

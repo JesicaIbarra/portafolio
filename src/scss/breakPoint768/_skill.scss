@@ -1,0 +1,24 @@
+@media (max-width: 768px) {
+    .skills, .hobbies{
+          
+        .skills__title {
+            font-size: 22px;
+        }
+
+        .hobbies__title{
+            font-size: 22px;
+            padding-top: 0rem;
+        }
+    
+        .skills__line, .hobbies__line{
+            padding: 3rem 1rem;
+            flex-wrap: wrap;            
+    
+            .skills__box, .hobbies__box{
+                width: 30%;
+                height: 115px;
+                margin-bottom: 2rem;
+            }
+        }
+    }
+}
