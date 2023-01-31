@@ -464,17 +464,6 @@
   }
 }
 @media (max-width: 480px) {
-  .tudo .menu {
-    padding: 1rem 1rem;
-  }
-  .tudo .menu .menu__header {
-    width: 50%;
-  }
-  .tudo .menu .menu__header h3 {
-    font-size: 16px;
-  }
-}
-@media (max-width: 480px) {
   .title .title__div {
     flex-direction: column;
     padding: 0rem 1rem;
