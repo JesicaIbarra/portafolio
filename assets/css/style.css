@@ -150,6 +150,7 @@
 }
 .academic .academic__courses .academic__courses__list .academic__courses__item__subtitle {
   list-style: none;
+  margin-bottom: 10px;
 }
 
 .experience {
@@ -261,6 +262,15 @@
 }
 
 @media (max-width: 768px) {
+  .tudo .menu {
+    padding: 1rem 1rem;
+  }
+  .tudo .menu .menu__header {
+    width: 50%;
+  }
+  .tudo .menu .menu__header h3 {
+    font-size: 16px;
+  }
   .tudo .menu nav ul li {
     display: none;
   }
@@ -298,22 +308,23 @@
     height: 150px;
   }
 }
-.about {
-  background-color: #EAF2FD;
+@media (max-width: 768px) {
+  .about {
+    background-color: #EAF2FD;
+  }
+  .about .about__container {
+    padding: 1rem 3rem;
+  }
+  .about .about__container .about__title {
+    font-size: 22px;
+    margin-bottom: 2rem;
+  }
+  .about .about__container .about__paragraph {
+    width: 100%;
+    padding-bottom: 2rem;
+    font-size: 14px;
+  }
 }
-.about .about__container {
-  padding: 1rem 3rem;
-}
-.about .about__container .about__title {
-  font-size: 22px;
-  margin-bottom: 2rem;
-}
-.about .about__container .about__paragraph {
-  width: 100%;
-  padding-bottom: 2rem;
-  font-size: 14px;
-}
-
 @media (max-width: 768px) {
   .skills .skills__title, .hobbies .skills__title {
     font-size: 22px;
@@ -338,13 +349,13 @@
     padding-top: 2rem;
   }
   .academic .academic__courses {
-    padding: 3rem 0.5rem;
+    padding: 3rem 0rem;
     display: flex;
     width: 100%;
     justify-content: space-evenly;
   }
   .academic .academic__courses .academic__courses__list .academic__courses__item__img {
-    width: 225px;
+    width: 30vw;
     height: 110px;
   }
   .academic .academic__courses .academic__courses__list .academic__courses__item__img img {
@@ -353,6 +364,7 @@
   }
   .academic .academic__courses .academic__courses__list .academic__courses__item__title {
     list-style: none;
+    font-size: 14px;
     padding: 10px 0px;
   }
 }
@@ -449,5 +461,64 @@
     background-color: #2A7AE4;
     color: #F5F5F5;
     border: 1px solid #2A7AE4;
+  }
+}
+@media (max-width: 480px) {
+  .tudo .menu {
+    padding: 1rem 1rem;
+  }
+  .tudo .menu .menu__header {
+    width: 50%;
+  }
+  .tudo .menu .menu__header h3 {
+    font-size: 16px;
+  }
+}
+@media (max-width: 480px) {
+  .title .title__div {
+    flex-direction: column;
+    padding: 0rem 1rem;
+  }
+  .title .title__div .title__container {
+    width: 100%;
+  }
+  .title .title__div .title__container h2 {
+    padding: 10px 0;
+  }
+  .title .title__div .title__container h3 {
+    font-size: 14px;
+  }
+}
+@media (max-width: 480px) {
+  .about .about__container {
+    padding: 3rem 1rem;
+  }
+  .about .about__container .about__paragraph {
+    width: 100%;
+  }
+}
+@media (max-width: 480px) {
+  .skills .skills__line .skills__box, .skills .skills__line .hobbies__box, .skills .hobbies__line .skills__box, .skills .hobbies__line .hobbies__box, .hobbies .skills__line .skills__box, .hobbies .skills__line .hobbies__box, .hobbies .hobbies__line .skills__box, .hobbies .hobbies__line .hobbies__box {
+    width: 40%;
+    height: 120px;
+  }
+}
+@media (max-width: 480px) {
+  .academic .academic__courses {
+    flex-direction: column;
+    width: 100%;
+    align-items: center;
+  }
+  .academic .academic__courses .academic__courses__list .academic__courses__item__img {
+    width: 80vw;
+    height: 120px;
+  }
+  .academic .academic__courses .academic__courses__list .academic__courses__item__img img {
+    width: 100px;
+    padding: 5px;
+  }
+  .academic .academic__courses .academic__courses__list .academic__courses__item__title {
+    list-style: none;
+    padding: 10px 0px;
   }
 }

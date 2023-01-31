@@ -1,23 +1,18 @@
-@media (max-width: 768px){
+@media (max-width: 480px){
     .academic{
-  
-        .academic__title{
-            font-size: 22px;
-            padding-top: 2rem;
-        }
     
         .academic__courses{
-            padding: 3rem 0rem;
-            display: flex;
+            flex-direction: column;
             width: 100%;
-            justify-content: space-evenly;
+            align-items: center;
     
             .academic__courses__list{
-                
+        
                            
                 .academic__courses__item__img{
-                    width:30vw;
-                    height: 110px;
+                    width:80vw;
+                    height: 120px;
+                    
                     
                     img{
                         width: 100px;
@@ -27,9 +22,11 @@
     
                 .academic__courses__item__title{
                     list-style: none;
-                    font-size: 14px;
                     padding: 10px 0px;
+                    
                 }
+
+
     
             }
         }

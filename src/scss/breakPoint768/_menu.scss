@@ -1,7 +1,15 @@
 @media (max-width:768px) {
     .tudo{
         .menu{
-                                        
+            padding: 1rem 1rem;
+
+            .menu__header{
+                width: 50%;       
+               h3{
+                   font-size: 16px;
+               }   
+            } 
+                                    
             nav{
 
                 ul{

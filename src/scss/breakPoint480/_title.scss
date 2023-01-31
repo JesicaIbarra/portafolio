@@ -1,0 +1,20 @@
+@media (max-width: 480px) {
+    .title{
+    
+        .title__div{
+            flex-direction: column;
+            padding: 0rem 1rem;
+           
+            .title__container{
+                width:100%;
+                h2{
+                    padding: 10px 0;
+                }
+    
+                h3{
+                    font-size: 14px;
+                }
+            }      
+        } 
+    }
+}
