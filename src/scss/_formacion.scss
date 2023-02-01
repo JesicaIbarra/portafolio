@@ -9,14 +9,14 @@
     }
 
     .academic__courses{
-        padding: 3rem 6rem;
+        padding: 3rem;
         display: flex;
         justify-content: space-evenly;
 
         .academic__courses__list{
                        
             .academic__courses__item__img{
-                width: 340px;
+                width: 25vw;
                 height: 250px;
                 display: flex;
                 justify-content: center;
@@ -25,6 +25,7 @@
                 list-style: none;
 
                 img{
+                    width: 15vw;
                     padding: 5px;
                 }
             }

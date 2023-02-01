@@ -26,6 +26,7 @@
 .tudo .menu nav ul {
   display: flex;
   justify-content: end;
+  flex-wrap: wrap;
 }
 .tudo .menu nav ul li {
   padding: 10px;
@@ -45,15 +46,20 @@
 .title .title__div {
   display: flex;
   flex-direction: row-reverse;
-  justify-content: space-between;
-  padding: 2rem 6rem;
+  justify-content: center;
+  flex-wrap: wrap;
+  padding: 2rem 3rem;
+}
+.title .title__div .title__profile {
+  width: 300px;
+  height: 300px;
 }
 .title .title__div .title__container {
   width: 70%;
   padding: 20px 0px;
 }
 .title .title__div .title__container h2 {
-  font-size: 52px;
+  font-size: 3vw;
   padding: 30px 0;
 }
 .title .title__div .title__container h3 {
@@ -96,13 +102,15 @@
   padding-top: 3rem;
 }
 .skills .skills__line, .skills .hobbies__line, .hobbies .skills__line, .hobbies .hobbies__line {
-  padding: 3rem 6rem;
+  padding: 1rem 6rem;
   display: flex;
   justify-content: space-evenly;
+  flex-wrap: wrap;
 }
 .skills .skills__line .skills__box, .skills .skills__line .hobbies__box, .skills .hobbies__line .skills__box, .skills .hobbies__line .hobbies__box, .hobbies .skills__line .skills__box, .hobbies .skills__line .hobbies__box, .hobbies .hobbies__line .skills__box, .hobbies .hobbies__line .hobbies__box {
   width: 175px;
   height: 175px;
+  margin-bottom: 10px;
   background-color: #ffffff;
 }
 .skills .skills__line .skills__box ul, .skills .skills__line .hobbies__box ul, .skills .hobbies__line .skills__box ul, .skills .hobbies__line .hobbies__box ul, .hobbies .skills__line .skills__box ul, .hobbies .skills__line .hobbies__box ul, .hobbies .hobbies__line .skills__box ul, .hobbies .hobbies__line .hobbies__box ul {
@@ -129,12 +137,12 @@
   padding-top: 3rem;
 }
 .academic .academic__courses {
-  padding: 3rem 6rem;
+  padding: 3rem;
   display: flex;
   justify-content: space-evenly;
 }
 .academic .academic__courses .academic__courses__list .academic__courses__item__img {
-  width: 340px;
+  width: 25vw;
   height: 250px;
   display: flex;
   justify-content: center;
@@ -143,6 +151,7 @@
   list-style: none;
 }
 .academic .academic__courses .academic__courses__list .academic__courses__item__img img {
+  width: 15vw;
   padding: 5px;
 }
 .academic .academic__courses .academic__courses__list .academic__courses__item__title {
@@ -163,11 +172,12 @@
   padding-top: 3rem;
 }
 .experience .experiencie__box {
-  padding: 3rem 6rem;
+  padding: 3rem;
   display: flex;
   align-items: center;
 }
 .experience .experiencie__box .experience__img {
+  width: 60vw;
   padding-right: 3rem;
 }
 .experience .experiencie__box .experience__info {
@@ -185,12 +195,14 @@
   padding: 20px 30px;
   color: #2A7AE4;
   border: 1px solid #2A7AE4;
+  margin-top: 10px;
 }
 .experience .experiencie__box .experience__info .experience__demo button {
   padding: 20px 30px;
   background-color: #2A7AE4;
   color: #F5F5F5;
   border: 1px solid #2A7AE4;
+  margin-top: 10px;
 }
 .experience .box {
   flex-direction: row-reverse;
@@ -200,12 +212,16 @@
   background-color: #EAF2FD;
 }
 .formcontato .formcontato__contacto {
-  padding: 3rem 6rem;
+  padding: 3rem;
   display: flex;
   height: 100%;
 }
 .formcontato .formcontato__contacto .formcontato--esquerda {
+  width: 50vw;
   padding-right: 2rem;
+}
+.formcontato .formcontato__contacto .formcontato--esquerda .formcontato__img {
+  width: 100%;
 }
 .formcontato .formcontato__contacto .formcontato__text {
   display: flex;
@@ -284,7 +300,7 @@
     flex-direction: row-reverse;
     align-items: center;
     justify-content: space-between;
-    padding: 0rem 3rem;
+    padding: 0rem 1rem;
   }
   .title .title__div .title__container h2 {
     font-size: 22px;
@@ -298,6 +314,7 @@
     display: flex;
     list-style: none;
     margin-top: 0.5rem;
+    flex-wrap: wrap;
   }
   .title .title__div .title__container ul li a {
     text-decoration: none;
@@ -509,5 +526,15 @@
   .academic .academic__courses .academic__courses__list .academic__courses__item__title {
     list-style: none;
     padding: 10px 0px;
+  }
+}
+@media (max-width: 480px) {
+  .tudo .menu {
+    flex-direction: column;
+    align-items: flex-start;
+    height: auto;
+  }
+  .tudo .menu .menu__header {
+    width: 100%;
   }
 }

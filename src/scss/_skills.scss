@@ -9,13 +9,15 @@
     }
 
     .skills__line, .hobbies__line{
-        padding: 3rem 6rem;
+        padding: 1rem 6rem;
         display: flex;
         justify-content: space-evenly;
+        flex-wrap: wrap;
 
         .skills__box, .hobbies__box{
             width: 175px;
             height: 175px;
+            margin-bottom: 10px;
             background-color: #ffffff;
 
             ul{

@@ -6,7 +6,7 @@
             flex-direction: row-reverse;
             align-items: center;
             justify-content: space-between;
-            padding: 0rem 3rem;
+            padding: 0rem 1rem;
            
             .title__container{
 
@@ -24,6 +24,8 @@
                     display: flex;
                     list-style: none;
                     margin-top: 0.5rem;
+                    flex-wrap: wrap;
+                    
 
                     li{
                         

@@ -2,12 +2,17 @@
     background-color: #EAF2FD;
 
     .formcontato__contacto{
-        padding: 3rem 6rem;
+        padding: 3rem;
         display: flex;
         height: 100%;
 
         .formcontato--esquerda{
+            width: 50vw;
             padding-right: 2rem;
+
+            .formcontato__img{
+               width:100%; 
+            }
         }
 
         .formcontato__text{
